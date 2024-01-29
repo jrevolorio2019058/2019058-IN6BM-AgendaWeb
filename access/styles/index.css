@@ -67,12 +67,25 @@ body{
 
 }
 
-@media(max-width:50%){
+@media (max-width: 1000px){
 
-    body{
+    .contenedor{
 
-        background: linear-gradient(59deg, rgba(0,128,154,1) 8%, rgba(18,18,111,1) 60%, rgba(6,0,107,1) 100%);
-    
+        width: 80vh;
+        height: 40vh;
+
+    }
+
+    .contenedor-IMG{
+
+        width: 25vh;
+
+    }
+
+    .letra-centrada{
+
+        margin-left: 14vh;
+
     }
 
 }
