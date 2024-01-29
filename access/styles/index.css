@@ -1,0 +1,78 @@
+body{
+
+    display: flex;
+    background: linear-gradient(59deg, rgba(0,128,154,1) 8%, rgba(18,18,111,1) 60%, rgba(6,0,107,1) 100%);
+
+
+}
+
+.contenedor{
+
+    background-color: #78F0B4;
+    display: flex;
+    overflow: hidden;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 100vh;
+    height: 50vh;
+    border-radius: 2vh;
+
+}
+
+.contenedor-IMG{
+
+    display: flex;
+    overflow: hidden;
+    background-color: aliceblue;
+    height: 100%;
+    width: 40vh;
+
+
+}
+
+.contenedor-Datos{
+
+    background-color: #7DE9D9;
+    overflow: hidden;
+    display: flex;
+    height: 100%;
+    width: 60vh;
+
+}
+
+.letra-centrada{
+
+    display: flex;
+    position: absolute;
+    margin-left: 18vh;
+    font-family: "Broadway", cursive;
+
+}
+
+.centrado{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.lineal{
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+@media(max-width:50%){
+
+    body{
+
+        background: linear-gradient(59deg, rgba(0,128,154,1) 8%, rgba(18,18,111,1) 60%, rgba(6,0,107,1) 100%);
+    
+    }
+
+}
