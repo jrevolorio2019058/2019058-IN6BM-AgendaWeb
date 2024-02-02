@@ -1,26 +1,25 @@
-const usuario = document.getElementById("usaurio");
-const clave = document.getElementById("clave");
+let comprobacionA = 'admin';
+let comprobacionB = 'admin';
 
+function validar() {
 
-function validar(){
+    let usuario = document.getElementById('usuario').value;
+    let clave = document.getElementById('clave').value;
 
-    if(usuario.toLowerCase() == "admin" && clave.toLowerCase() == "admin"){
-
-        window.alert("Prueba");
+    if(usuario.toLowerCase() === comprobacionA && clave.toLowerCase() === comprobacionB){
         window.location.href = './access/html/contactos.html';
-        limpiar();
-    
+        limpiarInput();
     }else{
-        window.alert("Usuario o Contraseña incorectos");
-        clave.value = "";
+        window.alert('Usuario o Contraseña incorectos');
+        document.getElementById('clave').value = '';
     }
 
 }
 
-function limpiar(){
-
-    usuario.value = "";
-    clave.value = "";
+function limpiarInput() {
+    
+    document.getElementById('usuario').value = '';
+    document.getElementById('clave').value = '';
 
 }
 
