@@ -1,3 +1,9 @@
+body{
+    background-image: url('../img/fondoIMG.JPG');
+    background-repeat: no-repeat;
+    background-size: 100% 100vh;
+}
+
 .contenedor{
 
     background-color: #78F0B4;
@@ -17,7 +23,7 @@
 
     display: flex;
     overflow: hidden;
-    background-image: url('../img/fondoIMG.JPG');
+    background-image: url('../img/fondoBlanco.JPG');
     background-size: 100% 100%;
     background-position: center;
     height: 100%;
@@ -26,9 +32,18 @@
 
 }
 
+.contenedor-IMG img{
+
+    display: block;
+    margin: auto;
+    width: 30vh;
+    height: 30vh;
+
+}
+
 .contenedor-Datos{
 
-    background-color: #7DE9D9;
+    background: linear-gradient(59deg, rgba(0,128,154,1) 8%, rgba(18,18,111,1) 60%, rgba(6,0,107,1) 100%);
     overflow: hidden;
     display: flex;
     height: 100%;
@@ -42,6 +57,7 @@
     position: absolute;
     margin-left: 18vh;
     font-family: "Broadway", cursive;
+    color: aliceblue;
 
 }
 
@@ -74,7 +90,12 @@
     border: none;
     border-radius: 20px;
     background-color: transparent;
+    color: aliceblue;
 
+}
+
+input::placeholder{
+    color: aliceblue;
 }
 
 .usuario:hover{
