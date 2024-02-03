@@ -32,3 +32,21 @@ window.addEventListener('beforeunload', function (event) {
         event.returnValue = '¿Seguro de Salir?';
     }
   });
+
+function limpiar(){
+
+    document.getElementById('nombre').value = '';
+    document.getElementById('apellido').value = '';
+    document.getElementById('telefono').value = '';
+    document.getElementById('genero').value = '';
+    document.getElementById('correo').value = '';
+
+}
+
+function comprobacion(){
+
+        window.alert('Contacto Agregado');
+        window.location.href = './../html/contactos.html';
+        limpiar();
+
+}

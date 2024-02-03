@@ -101,3 +101,99 @@ button{
   }
 
 /*Final Header y Modal*/
+
+.contenedor-General{
+
+    background-color: transparent;
+    margin: 20px;
+    height: 100%;
+
+}
+
+.encabezado{
+
+    background-color: transparent;
+    display: flex;
+    overflow: hidden;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.encabezado h1{
+
+    font-size: 6vh;
+    font-family: "Cascadia Code", cursive;
+
+}
+
+.entradaDatos{
+    margin: 50px;
+}
+
+.inputIzquierda{
+
+    background-color: tr;
+    width: 80vh;
+    height: 8vh;
+    position: relative;
+    margin: 20px;
+    border-radius: 40px;
+    border: none;
+    justify-content: center;
+    text-align: center;
+    font-size: 30px;
+    font-family: "Comic Sans MS", cursive;
+
+
+}
+
+.inputIzquierda::placeholder{
+    font-weight: bold;
+}
+
+input:hover{
+    background-color: #C10000;
+    color: aliceblue;
+}
+
+input:hover::placeholder{
+    color: aliceblue;
+}
+
+.centrado{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.lineal{
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.inputDerecha{
+
+    background-color: tr;
+    width: 165vh;
+    height: 8vh;
+    position: relative;
+    margin: 20px;
+    border-radius: 40px;
+    border: none;
+    justify-content: center;
+    text-align: center;
+    font-size: 30px;
+    font-family: "Comic Sans MS", cursive;
+
+
+}
+
+.inputDerecha::placeholder{
+    font-weight: bold;
+}
