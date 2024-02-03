@@ -164,3 +164,25 @@ button{
   .contenedor-Tabla th {
     background-color: #f2f2f2;
   }
+
+  @media screen and (max-width: 1000px){
+
+    
+    .infoIMG{
+    
+        width: 4vh;
+        height: 4vh;
+        position: relative;
+        left: 20px;
+    
+    }
+    
+    .contenedor-Tabla table {
+        background-color: aliceblue;
+        position: relative;
+        top: -50px;
+        border-collapse: collapse;
+        width: 80vh;
+      }
+
+  }
