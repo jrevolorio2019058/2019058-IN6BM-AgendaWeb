@@ -202,3 +202,45 @@ input::placeholder{
 
 }
 
+@media screen and (max-width: 500px) and (max-height: 1000px){
+
+    .contenedor{
+
+        width: 40vh;
+        height: 30vh;
+
+    }
+
+    .contenedor-IMG{
+        display: none;
+        width: 20vh;
+
+    }
+
+    .letra-centrada{
+
+        margin-left: 14vh;
+
+    }
+
+    .usuario{
+        width: 33vh;
+        height: 3vh;
+        position: relative;
+    }
+
+    .clave{
+        width: 32vh;
+        height: 2vh;
+        position: relative;
+    }
+
+    .contenedor-IMG img{
+
+        width: 15vh;
+        height: 15vh;
+    
+    }
+
+}
+
