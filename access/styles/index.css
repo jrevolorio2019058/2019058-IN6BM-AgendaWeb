@@ -143,4 +143,19 @@ input::placeholder{
 
     }
 
+    .usuario{
+        width: 45vh;
+    }
+
+    .clave{
+        width: 45vh;
+    }
+
+    .contenedor-IMG img{
+
+        width: 15vh;
+        height: 15vh;
+    
+    }
+
 }
