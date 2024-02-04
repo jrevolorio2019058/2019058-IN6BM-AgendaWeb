@@ -72,6 +72,19 @@
     border-radius: 20px;
 }
 
+.ventanaModalB{
+    width: 100vh; 
+    height: 80vh; 
+    justify-content: center; 
+    text-align: center; 
+    overflow: hidden; 
+    background-color: #B3B6B7;
+    font-family: "Georgia", cursive;
+    padding: 20px;
+    font-size: 25px;
+    border-radius: 20px;
+}
+
 .ventanaModal button{
     width: 80px;
     height: 50px;
@@ -237,5 +250,16 @@ button{
         top: -50px;
         width: 37vh;
       }
+
+  }
+
+  @media screen and (max-width: 780px) and (max-height: 1050px){
+
+    .ventanaModalB{
+
+        width: 50vh;
+        height: 75vh;
+
+    }
 
   }
