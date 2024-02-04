@@ -158,6 +158,7 @@ button{
 }
   
   table {
+    background-color: aliceblue;
     width: 100%;
     border-collapse: collapse;
     margin-top: 20px;
@@ -166,6 +167,7 @@ button{
   th, td {
     border: 1px solid #ddd;
     padding: 8px;
+    height: 9vh;
     text-align: center;
   }
   
