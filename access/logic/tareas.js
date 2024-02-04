@@ -33,5 +33,35 @@ window.addEventListener('beforeunload', function (event) {
     }
   });
 
-  
+document.addEventListener('DOMContentLoaded', function () {
+    function renderizarTabla() {
+      const tbody = document.querySelector('#tabla tbody');
+      const rows = [...tbody.querySelectorAll('tr')];
+
+      rows.sort((a, b) => {
+        const prioridadA = obtenerPrioridad(a);
+        const prioridadB = obtenerPrioridad(b);
+
+        const ordenPrioridad = {
+
+            'Alta': 1,
+            'Media':2,
+            'Baja':3
+
+        };
+
+        return ordenPrioridad[prioridadA] - ordenPrioridad[prioridadB];
+      });
+
+      rows.forEach(row => tbody.appendChild(row));
+    }
+
+function obtenerPrioridad(row) {
+    return row.querySelector('td:last-child').textContent;
+}
+
+    renderizarTabla();
+});
+
+
 
