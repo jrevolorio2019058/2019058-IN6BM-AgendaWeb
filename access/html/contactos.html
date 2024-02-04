@@ -17,6 +17,7 @@
             <img src="./../img/logoAgenda.png">
         </div>
         <div class="contenedorDerecha">
+            <a onclick="abrirModal(8)"><button class="btn btn-info">Cuenta</button></a>
             <a><img src="./../img/cerrarSesion.png" onclick="abrirModal(1)"></a>
         </div>
     </div>
@@ -133,10 +134,21 @@
           </div>
     </div>
 
+    <div id="modal7" class="modal">
+        <div class="ventanaModalC" style="background-color: aliceblue;">
+            <p style="font-size: 40px; margin: 5px; font-weight: bold; color: #02197F;">Foto</p>
+            <img src="./../img/usuarioAdmin.JPG" style="width: 35vh; height: 35vh; border-radius: 100px; margin: 20px;">
+            <h2 style="font-size: 20px; margin: 20px;"><label labels style="font-weight: bold; color: #9D0000;">Usuario:</label> Admin</h2>
+            <h2 style="font-size: 20px; margin: 20px;"><label labels style="font-weight: bold; color: #9D0000;">Contraseña:</label> Admin</h2>
+            <h2 style="font-size: 20px; margin: 20px;"><labels style="font-weight: bold; color: #9D0000;">Dueño Cuenta:</labels> Jorge Abraham Revolorio Mazariegos</h2>
+            <button class="btn btn-danger" onclick="negativoSalir()" style="width: 10vh;">Regresar</button>
+          </div>
+    </div>
+
     <div class="btnAgregar">
         <h1>Contactos</h1>
         <div>
-            <a onclick="abrirModal(7)"><img src="./../img/favoritos.png"></a><
+            <a onclick="abrirModal(7)" class="favoritos"><img src="./../img/favoritos.png"></a>
             <a href="./../html/nuevoContacto.html"><button class="btn btn-info">Agregar Contacto</button></a>
         </div>
     </div>

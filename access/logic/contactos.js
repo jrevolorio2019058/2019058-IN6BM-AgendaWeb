@@ -9,6 +9,7 @@ function obtener(){
     let modal4 = document.getElementById('modal4');
     let modal5 = document.getElementById('modal5');
     let modal6 = document.getElementById('modal6');
+    let modal7 = document.getElementById('modal7');
     let siBtn = document.getElementById('siBtn');
     let noBtn = document.getElementById('noBtn');
     let modalAbierto = true;
@@ -50,6 +51,10 @@ function abrirModal(entrada){
 
         modal6.style.display = 'flex';
 
+    }else if(opcionModal === 8){
+
+        modal7.style.display = 'flex';
+
     }
     
     
@@ -66,6 +71,7 @@ function negativoSalir(){
     modal4.style.display = 'none';
     modal5.style.display = 'none';
     modal6.style.display = 'none';
+    modal7.style.display = 'none';
 }
 
 function positivoSalir(){
@@ -95,6 +101,9 @@ window.addEventListener('beforeunload', function (event) {
         event.preventDefault();
         event.returnValue = '¿Seguro de Salir?';
     }else if (modal6.style.display === 'flex' && modalAbierto && opcionModal === 7) {
+        event.preventDefault();
+        event.returnValue = '¿Seguro de Salir?';
+    }else if (modal7.style.display === 'flex' && modalAbierto && opcionModal === 8) {
         event.preventDefault();
         event.returnValue = '¿Seguro de Salir?';
     }
