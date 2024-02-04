@@ -87,16 +87,18 @@
     <div id="modal6" class="modal">
         <div class="ventanaModalC">
             <p>Favoritos</p>
-            <button class="btn btn-danger" onclick="negativoSalir()" style="width: 10vh;">Regresar</button>
+            <button class="btn btn-danger" onclick="negativoSalir()" style="width: 10vh; margin: 20px;">Regresar</button>
             <div class="contenedorA">
                 <div class="contenedor-TablaA">
                     <table>
                         <thead>
-                            <tr>
+                            <tr class=>
                                 <th>N°</th>
                                 <th>Nombre</th>
                                 <th>Apellido</th>
-                                <th>Telefono</th>
+                                <th class="telefono">Telefono</th>
+                                <th class="correo">Correo</th>
+
                             </tr>
                         </thead>
                         <tbody>
@@ -106,20 +108,23 @@
                                     <td>01</td>
                                     <td>Jorge Abraham</td>
                                     <td>Revolorio Mazariegos</td>
-                                    <td>49483571</td>
+                                    <td class="telefono">49483571</td>
+                                    <td class="correo">jrevolorio-2019058@kinal.edu.gt</td>
                                 </tr>
                                 <tr>
                                     <td>02</td>
                                     <td>Jose Alberto</td>
                                     <td>Rivera</td>
-                                    <td>94367410</td>
+                                    <td class="telefono">94367410</td>
+                                    <td class="correo">riveracarillo@gmail.com</td>
                                 </tr>
                                 <tr>
                                 <tr>
                                     <td>03</td>
                                     <td>Carlos</td>
                                     <td>Martínez</td>
-                                    <td>46870235</td>
+                                    <td class="telefono">46870235</td>
+                                    <td class="correo">carlitoselgrande@gmail.com</td>
                                 </tr>
                         </tbody>
                     </table>
@@ -144,8 +149,8 @@
                         <th>N°</th>
                         <th>Nombre</th>
                         <th>Apellido</th>
-                        <th>Telefono</th>
                         <th>INFO</th>
+                        <th>Favoritos</th>
                     </tr>
                 </thead>
                 <tbody>
@@ -155,36 +160,36 @@
                             <td>01</td>
                             <td>Jorge Abraham</td>
                             <td>Revolorio Mazariegos</td>
-                            <td>49483571</td>
                             <td><a onclick="abrirModal(2)"><img class="infoIMG" src="./../img/info.png"></a></td>
+                            <td><a onclick="abrirModal(7)"><img class="infoIMG" src="./../img/cheque.png"></a></td>
                         </tr>
                         <tr>
                             <td>02</td>
                             <td>Braulio</td>
                             <td>Echeveria</td>
-                            <td>46879420</td>
                             <td><a onclick="abrirModal(3)"><img class="infoIMG" src="./../img/info.png"></a></td>
+                            <td><a onclick="faseBeta()"><img class="infoIMG" src="./../img/negado.png"></a></td>
                         </tr>
                         <tr>
                             <td>03</td>
                             <td>Jose Alberto</td>
                             <td>Rivera</td>
-                            <td>94367410</td>
                             <td><a onclick="abrirModal(4)"><img class="infoIMG" src="./../img/info.png"></a></td>
+                            <td><a onclick="abrirModal(7)"><img class="infoIMG" src="./../img/cheque.png"></a></td>
                         </tr>
                         <tr>
                             <td>04</td>
                             <td>Victor</td>
                             <td>Alvaréz</td>
-                            <td>94621674</td>
                             <td><a onclick="abrirModal(5)"><img class="infoIMG" src="./../img/info.png"></a></td>
+                            <td><a onclick="faseBeta()"><img class="infoIMG" src="./../img/negado.png"></a></td>
                         </tr>
                         <tr>
                             <td>05</td>
                             <td>Carlos</td>
                             <td>Martínez</td>
-                            <td>46870235</td>
                             <td><a onclick="abrirModal(6)"><img class="infoIMG" src="./../img/info.png"></a></td>
+                            <td><a onclick="abrirModal(7)"><img class="infoIMG" src="./../img/cheque.png"></a></td>
                         </tr>
                 </tbody>
             </table>

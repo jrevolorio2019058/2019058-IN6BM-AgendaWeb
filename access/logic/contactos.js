@@ -99,3 +99,9 @@ window.addEventListener('beforeunload', function (event) {
         event.returnValue = '¿Seguro de Salir?';
     }
   });
+
+  function faseBeta(){
+
+    window.alert('Error! La App esta en fase beta, pronto podra modificar favoritos');
+
+  }
