@@ -85,6 +85,15 @@
     border-radius: 20px;
 }
 
+.ventanaModalB p{
+
+    font-size: 40px; 
+    margin: 5px; 
+    font-weight: bold; 
+    color: #02197F;
+
+}
+
 .ventanaModal button{
     width: 80px;
     height: 50px;
@@ -259,6 +268,23 @@ button{
 
         width: 50vh;
         height: 75vh;
+
+    }
+
+  }
+
+  @media screen and (max-width: 500px) and (max-height: 1000px){
+
+    .ventanaModalB{
+
+        width: 40vh;
+        height: 90vh;
+
+    }
+
+    .ventanaModalB p{
+
+        font-size: 25px;
 
     }
 
