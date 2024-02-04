@@ -94,6 +94,28 @@
 
 }
 
+.ventanaModalC{
+    width: 100vh; 
+    height: 80vh; 
+    justify-content: center; 
+    text-align: center; 
+    overflow: hidden; 
+    background-color: #B3B6B7;
+    font-family: "Georgia", cursive;
+    padding: 20px;
+    font-size: 25px;
+    border-radius: 20px;
+}
+
+.ventanaModalC p{
+
+    font-size: 40px; 
+    margin: 5px; 
+    font-weight: bold; 
+    color: #02197F;
+
+}
+
 .ventanaModal button{
     width: 80px;
     height: 50px;
@@ -185,6 +207,47 @@ button{
   
   .contenedor-Tabla th {
     background-color: #f2f2f2;
+  }
+
+  .contenedorA{
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 97%;
+    height: 70vh;
+    margin: 20px;
+}
+
+.contenedor-TablaA{
+    background-color: transparent;
+}
+
+.contenedor-TablaA table {
+    background-color: aliceblue;
+    position: relative;
+    top: -50px;
+    border-collapse: collapse;
+    width: 90vh;
+    height: 40vh;
+  }
+  
+  .contenedor-TablaA th, .contenedor-TablaA td {
+    border: 1px solid #ddd;
+    padding: 8px; /* Ajusta el valor según sea necesario para el espacio deseado */
+    text-align: left;
+  }
+  
+  .contenedor-TablaA th {
+    background-color: #f2f2f2;
+  }
+
+  .btnAgregar img{
+    width: 70px;
+    height: 70px;
+    position: relative;
+    left: -55px;
+    top: 15px;
   }
 
   @media screen and (max-width: 1000px){
